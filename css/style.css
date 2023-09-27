@@ -3,3 +3,79 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* TAG */
+a {
+    text-decoration: none;
+}
+
+
+/* Classi generiche */
+.white {
+    color: white;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.paddingRL {
+    padding: 0 4px;
+}
+
+
+/* Classi Header */
+.navBar {
+    display: flex;
+    position: fixed;
+    background-color: #FF6801;
+    height: 75px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 140px;
+}
+
+/* Classi Main */
+.container {
+    padding: 130px 13% 0 13%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bgCard {
+    height: 650px;
+    width: 32%;
+    background-color: gray;
+    position: relative;
+}
+
+.card {
+    height: 650px;
+    width: 100%;
+    background-color: orange;
+    position: absolute;
+}
+
+.card:hover {
+    visibility: hidden;
+    pointer-events:none;
+}
+
+
+.heart {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    top: 12px;
+    right: 0px;
+}
